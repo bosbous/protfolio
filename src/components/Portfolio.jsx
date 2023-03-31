@@ -4,7 +4,7 @@ import bank from "../assets/portfolio/bank.png";
 import dashboard from "../assets/portfolio/dashboard.png";
 import movie from "../assets/portfolio/movie.png";
 function handle(e, id) {
-  if (e == "Demo") {
+  if (e === "Demo") {
     switch (id) {
       case 1:
         window.location.href = "https://1wordle1.netlify.app";
